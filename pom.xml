@@ -6,7 +6,12 @@
 
     <groupId>com.nh.redis</groupId>
     <artifactId>JavaRedis</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>redis-cache</module>
+        <module>redis-main</module>
+    </modules>
 
 
     <dependencies>

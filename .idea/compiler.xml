@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaRedis" />
+        <module name="redis-main" />
+        <module name="redis-cache" />
       </profile>
     </annotationProcessing>
   </component>

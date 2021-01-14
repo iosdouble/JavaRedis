@@ -44,6 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -104,10 +105,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="181" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591831428" />
-    <state x="2492" y="117" key="CommitChangelistDialog2" timestamp="1610607213212">
+    <state x="2492" y="117" key="CommitChangelistDialog2" timestamp="1610607438657">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2492" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607213212" />
+    <state x="2492" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607438657" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610591318103">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -128,9 +129,13 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2360" y="97" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591332437" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610607216040">
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610607445696">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607216040" />
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607445696" />
+    <state x="2254" y="224" key="new project wizard" timestamp="1610607591587">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2254" y="224" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607591587" />
   </component>
 </project>
