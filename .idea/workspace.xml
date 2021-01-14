@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5bb15f0-78be-44df-9147-bdb0f162c5b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaRedis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nh/cache/RedisCacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nh/redis/DistributedRedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nh/redis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nh/redis/RedissonManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nh/cache/RedisCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nh/cache/RedisCacheService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +79,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610590409728</updated>
-      <workItem from="1610590412484" duration="3005000" />
+      <workItem from="1610590412484" duration="3250000" />
     </task>
+    <task id="LOCAL-00001" summary="项目初始化">
+      <created>1610607214290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610607214290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,12 +96,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="项目初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="181" key="#Inspections" timestamp="1610591831428">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="181" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591831428" />
+    <state x="2492" y="117" key="CommitChangelistDialog2" timestamp="1610607213212">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2492" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607213212" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610591318103">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -123,5 +128,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2360" y="97" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591332437" />
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610607216040">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607216040" />
   </component>
 </project>

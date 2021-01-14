@@ -57,13 +57,11 @@ public class RedisCacheService {
      * @param cacheNull  是否缓存null
      * @return
      */
-    public static RedisCacheService of(RedissonClient redisson, String cacheName,
-                                       boolean ttlControl, boolean cacheNull) {
+    public static RedisCacheService of(RedissonClient redisson, String cacheName, boolean ttlControl, boolean cacheNull) {
         return new RedisCacheService(redisson, cacheName, ttlControl, cacheNull);
     }
 
-    private RedisCacheService(RedissonClient redisson, String cacheName,
-                              boolean ttlControl, boolean cacheNull) {
+    private RedisCacheService(RedissonClient redisson, String cacheName, boolean ttlControl, boolean cacheNull) {
         this.redisson = redisson;
         this.cacheName = cacheName;
         this.cacheSetName = cacheName + "_null_value_key_set";
