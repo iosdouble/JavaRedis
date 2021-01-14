@@ -19,7 +19,7 @@ public class RedissonManager {
     private static Redisson redisson = null;
     //实例化redisson
     static{
-        config.useSingleServer().setAddress("192.168.74.131:6379");
+        config.useSingleServer().setAddress("redis://192.168.74.131:6379");
         config.setCodec(new JsonJacksonCodec());
         config.setThreads(8);
         config.setNettyThreads(8);

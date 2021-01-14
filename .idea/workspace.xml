@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5bb15f0-78be-44df-9147-bdb0f162c5b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-main/src/main/java/com/nh/rmap/MainRMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring-boot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring-boot/src/main/java/com/nh/redis/redisspringboot/RedisSpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring-boot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring-boot/src/test/java/com/nh/redis/redisspringboot/RedisSpringBootApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nh/cache/RedisCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nh/cache/RedisCacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-main/src/main/java/com/nh/redis/RedissonManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-main/src/main/java/com/nh/redis/RedissonManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaRedis" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,12 +55,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainRMap">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nh.redis.Main" />
       <module name="JavaRedis" />
@@ -64,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainRMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nh.rmap.MainRMap" />
+      <module name="redis-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nh.rmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainRMap" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -80,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610590409728</updated>
-      <workItem from="1610590412484" duration="3250000" />
+      <workItem from="1610590412484" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1610607214290</created>
@@ -89,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610607214290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目初始化">
+      <created>1610607439479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610607439479</updated>
+    </task>
+    <task id="LOCAL-00003" summary="调整项目目录结构">
+      <created>1610607643142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610607643142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,44 +136,45 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+    <MESSAGE value="调整项目目录结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整项目目录结构" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="181" key="#Inspections" timestamp="1610591831428">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="181" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591831428" />
-    <state x="2492" y="117" key="CommitChangelistDialog2" timestamp="1610607438657">
+    <state x="2492" y="117" key="CommitChangelistDialog2" timestamp="1610607641934">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2492" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607438657" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610591318103">
+    <state x="2492" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607641934" />
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1610608936941">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591318103" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610591318103">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610608936941" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1610608936941">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591318103" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610591318103">
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610608936941" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1610608936941">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591318103" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610591318103">
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610608936941" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1610608936941">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591318103" />
-    <state x="2360" y="97" key="SettingsEditor" timestamp="1610591332437">
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610608936941" />
+    <state x="2360" y="97" key="SettingsEditor" timestamp="1610608082994">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2360" y="97" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610591332437" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610607445696">
+    <state x="2360" y="97" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610608082994" />
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610607644589">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607445696" />
-    <state x="2254" y="224" key="new project wizard" timestamp="1610607591587">
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607644589" />
+    <state x="2254" y="224" key="new project wizard" timestamp="1610608931832">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2254" y="224" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610607591587" />
+    <state x="2254" y="224" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610608931832" />
   </component>
 </project>
